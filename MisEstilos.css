@@ -1,0 +1,401 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header  {
+    width: 1440px;
+    height:110px;
+    background-color: #bca3b6;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+body    {   
+    background-color: #f2edf0;
+    
+}
+
+.Titulo     {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#TituloPrincipal    {
+    color: white;
+}
+
+#TituloSecundario   {
+    color: white;
+    
+}
+
+.ContenedorMenuNavegacion   {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    
+}
+/*.ContenedorNav  {
+    display: flex;
+}*/
+
+ul, ol  {
+    list-style: none;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 10px 15px;
+}
+
+
+.MenuNavegacion > li ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+
+}
+.MenuNavegacion {
+    width: 500px;
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 10px;
+      
+    
+     
+}
+
+.MenuNavegacion li:hover > ul   {
+    display: block;
+    background-color: #bca3b6;
+
+}
+#Buscador   {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}    
+    
+
+#IconoBuscar    {
+    color: beige;
+    
+}
+
+.ContenidoPrincipal     {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    
+}
+
+.FotoyTexto     {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+.ContenedorFoto1    {
+    width: 500px;
+    height: 600px;    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ContenedorTexto1   {
+    width: 220px;
+    height: 600px;
+    background-color: #c8a4a8;
+    text-align:right;
+    font-family: "Hind Madurai", sans-serif;
+    font-size:14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+
+}
+
+
+.ContenedorMaceta  {
+    width: 279px;
+    height: 351px;
+    
+    z-index: -1;
+    
+}
+
+.MacetayTexto    {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.ContenedorGrandeMaceta   {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: -1;
+}
+
+.LetraFaunces      {
+    font-family: "Fraunces", serif; 
+}
+
+.ContenedorListaPrecios     {
+    list-style: none;
+    text-decoration: none;
+    
+}
+.PosavasosTextoyFoto li   {
+    font-family: "Fraunces", serif;
+
+}
+
+.BañoTextoyFoto li  {
+    font-family: "Fraunces", serif;
+}
+
+.ContenedorSet     {
+    width:380px;
+    z-index: -1;
+}
+
+.ContenedorSetBaño     {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;  
+    flex-wrap: wrap; 
+    z-index: -1;
+
+}
+
+.BañoTextoyFoto     {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.ContenedorSetP     {
+    width: 380px;
+    height: 425px;
+    z-index: -1;
+}
+
+.ContenedorPosavasos    {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+.PosavasosTextoyFoto    {
+    display: flex;
+    flex-direction: column;
+}
+
+.ContenedorTerrazo  {
+    width: 1440px;
+    height:950px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    z-index: -1;
+}
+
+.Contenedorterrazo  {
+    width: 380px;   
+    z-index: -1;
+}
+
+.ContenedorEspTerrazo   {   
+    width: 380px;    
+    height: 425px;   
+    z-index: -1;
+}
+/*.ContenedorEspTerrazo   {
+    transform:rotate(90deg);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    z-index: -1;
+    background-size: 100% 100%;
+}*/
+
+.TerrazoTextoyFoto    {
+    display: flex;
+    flex-direction: column;
+}
+
+.ParTerrazo     {
+    width: 1440px;
+    display: flex;    
+    justify-content: space-around;    
+}
+
+
+.ContenedorBanquito     {
+    width: 383px;
+    height: 525px;
+
+}
+
+.ContenedorBanquitos    {
+    width: 1440px;
+    height: 750px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;    
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+.BanquitoyTexto     {
+    display: flex;
+    flex-direction: column;
+}
+
+.BanquitoyTexto li  {
+    font-family: "Fraunces", serif;
+}
+
+.ContenedorVelas    {
+    width: 370px;
+    height: 425px;
+}
+
+.ContenedorPortaVelas   {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    z-index: -1;
+
+}
+
+.VelayTexto     {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Ferias     {
+    height: 900px;
+    display: flex;
+    gap:80px;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+.ContenedorFeria    {
+    width: 441px;
+   display: flex;
+
+}
+
+.ContenedorFeriaFlex    {
+    width: 1440px;
+    height: 340px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    
+
+ 
+    z-index: -1;
+}
+
+
+   
+
+.footer     {
+    width: 1440px;
+    
+    background-color: #c9a6a1;
+}
+
+.MediosDePago   {
+    display: flex;
+    flex-direction: column;
+}
+
+.LogoPago  {
+    width: 50px;
+    height: 26px;
+
+}
+
+#Nativa     {
+    width: 50px;
+}
+
+
+
+.LogoEnvio      {
+    width: 50px;
+    height: 26px;
+
+    
+}
+
+.RRSS  {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.ContenedorContacto     {
+    display: flex;
+    
+    align-items: center;
+}
+
+.ContenedorPagosyEnvio      {
+    width: 400px;
+    
+
+}
+
+.ContenedorRRSSyContacto    {
+    width:400px
+}
+
+.footer     {
+    display: flex;
+    justify-content: space-evenly;
+}
